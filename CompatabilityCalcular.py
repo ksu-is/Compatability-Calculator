@@ -1,4 +1,4 @@
-Score = 0
+
 #Have users input names
 user1 = input('User 1, What is your name?: ')
 user2 = input('User 2, What is your name?: ')
@@ -7,17 +7,18 @@ user2 = input('User 2, What is your name?: ')
 user1responses = []
 user2responses = []
 questions = [
-    '\nQuestion 1. A) B) C) D)',
-    'Question 2. A) B) C) D)',
-    'Question 3. A) B) C) D)',
-    'Question 4. A) B) C) D)',
-    'Question 5. A) B) C) D)',
-    'Question 6. A) B) C) D)',
-    'Question 7. A) B) C) D)',
-    'Question 8. A) B) C) D)',
-    'Question 9. A) B) C) D)',
-    'Question 10. A) B) C) D)'
+    '\nQuestion 10. A) B) C) D)',
+    '\nQuestion 9. A) B) C) D)',
+    '\nQuestion 8. A) B) C) D)',
+    '\nQuestion 7. A) B) C) D)',
+    '\nQuestion 6. A) B) C) D)',
+    '\nQuestion 5. A) B) C) D)',
+    '\nQuestion 4. A) B) C) D)',
+    '\nQuestion 3. A) B) C) D)',
+    '\nQuestion 2. A) B) C) D)',
+    '\nQuestion 1. A) B) C) D)'
 ]
+
 def questionaire1():
     questions1 = questions
     while questions1:
@@ -27,6 +28,19 @@ questionaire1()
 print(user1responses)
 
 #Repeat for second person
+questions = [
+    '\nQuestion 10. A) B) C) D)',
+    '\nQuestion 9. A) B) C) D)',
+    '\nQuestion 8. A) B) C) D)',
+    '\nQuestion 7. A) B) C) D)',
+    '\nQuestion 6. A) B) C) D)',
+    '\nQuestion 5. A) B) C) D)',
+    '\nQuestion 4. A) B) C) D)',
+    '\nQuestion 3. A) B) C) D)',
+    '\nQuestion 2. A) B) C) D)',
+    '\nQuestion 1. A) B) C) D)'
+]
+
 def questionaire2():
     questions2 = questions
     while questions2:
@@ -36,11 +50,13 @@ questionaire2()
 print(user2responses)
 
 #Compare repositories
-while True:
-    if user1responses[0] == user2responses [0]:
-        Score += 10
-        user1responses.pop(0)
-        user2responses.pop(0)
-   
+def compcalc():
+    score = 0
+    while True:
+        if user1responses.pop() == user2responses.pop():
+            score += 10
+        else:
+            pass
+compcalc()
 #Return Score
-print("Your Compatability Score is:", Score + '!')
+print('Your Compatability Score is:', '!')
