@@ -1,4 +1,5 @@
 
+score_t = 0
 #Have users input names
 user1 = input('User 1, What is your name?: ')
 user2 = input('User 2, What is your name?: ')
@@ -51,12 +52,14 @@ print(user2responses)
 
 #Compare repositories
 def compcalc():
-    score = 0
     while True:
-        if user1responses.pop() == user2responses.pop():
-            score += 10
+        score_t = 0
+        if user1responses[0] == user2responses[0]:
+            score_t += 10
         else:
             pass
+        return score_t 
 compcalc()
+
 #Return Score
-print('Your Compatability Score is:', '!')
+print('Your Compatability Score is:', score_t,'!')
