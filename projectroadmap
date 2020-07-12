@@ -1,10 +1,13 @@
 Project Road Map
 
-  1. Draft System Blueprint
-  2. Input code comments for each function involved
-  3. Code phase 1
-      Get User Input for Name
-      Ask Questions
+  1. Draft System Blueprint (Done)
+  2. Input code comments for each function involved (Done)
+  3. Code phase 1 (Done)
+      Get User Input for Name 
+      Ask Questions (placeholder questions)
       Get User Input for Answers
-  4. Code phase 2
+  4. Code phase 2 (Done)
+      Function to compare user answers and return a score of 0-100
+  5. Updated Questions for Users
+  6. Added unique messages for different ranges of compatability scores
 
