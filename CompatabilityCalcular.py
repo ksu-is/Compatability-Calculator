@@ -51,42 +51,36 @@ questionaire2()
 print(user2responses)
 
 #Compare repositories
-def compcalc():
-    score = 0
-    while True:
-        if user1responses[0] == user2responses [0]:
-            score += 10
-            continue
-        elif user1responses[1] == user2responses [1]:
-            score += 10
-            continue
-        elif user1responses[2] == user2responses [2]:
-            score += 10
-            continue
-        elif user1responses[3] == user2responses [3]:
-            score += 10
-            continue
-        elif user1responses[4] == user2responses [4]:
-            score += 10
-            continue
-        elif user1responses[5] == user2responses [5]:
-            score += 10
-            continue
-        elif user1responses[6] == user2responses [6]:
-            score += 10
-            continue
-        elif user1responses[7] == user2responses [7]:
-            score += 10
-            continue
-        elif user1responses[8] == user2responses [8]:
-            score += 10
-            continue
-        elif user1responses[9] == user2responses [9]:
-            score += 10
-            break
-        print(score)
+score = 0
+if user1responses[0] == user2responses [0]:
+    score += 10    
+if user1responses[1] == user2responses [1]:
+    score += 10
+if user1responses[2] == user2responses [2]:
+    score += 10
+if user1responses[3] == user2responses [3]:
+    score += 10
+        
+if user1responses[4] == user2responses [4]:
+    score += 10
+            
+if user1responses[5] == user2responses [5]:
+    score += 10
+            
+if user1responses[6] == user2responses [6]:
+    score += 10
+           
+if user1responses[7] == user2responses [7]:
+    score += 10
+           
+if user1responses[8] == user2responses [8]:
+    score += 10
+           
+if user1responses[9] == user2responses [9]:
+    score += 10
+           
+print(score)
 
-compcalc()
 
 #Return Score
-print('Your Compatability Score is:', score_t,'!')
+print('Your Compatability Score is:', score,'!')
