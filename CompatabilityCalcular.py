@@ -1,5 +1,5 @@
 
-score_t = 0
+score = 0
 #Have users input names
 user1 = input('User 1, What is your name?: ')
 user2 = input('User 2, What is your name?: ')
@@ -52,13 +52,40 @@ print(user2responses)
 
 #Compare repositories
 def compcalc():
+    score = 0
     while True:
-        score_t = 0
-        if user1responses[0] == user2responses[0]:
-            score_t += 10
-        else:
-            pass
-        return score_t 
+        if user1responses[0] == user2responses [0]:
+            score += 10
+            continue
+        elif user1responses[1] == user2responses [1]:
+            score += 10
+            continue
+        elif user1responses[2] == user2responses [2]:
+            score += 10
+            continue
+        elif user1responses[3] == user2responses [3]:
+            score += 10
+            continue
+        elif user1responses[4] == user2responses [4]:
+            score += 10
+            continue
+        elif user1responses[5] == user2responses [5]:
+            score += 10
+            continue
+        elif user1responses[6] == user2responses [6]:
+            score += 10
+            continue
+        elif user1responses[7] == user2responses [7]:
+            score += 10
+            continue
+        elif user1responses[8] == user2responses [8]:
+            score += 10
+            continue
+        elif user1responses[9] == user2responses [9]:
+            score += 10
+            break
+        print(score)
+
 compcalc()
 
 #Return Score
