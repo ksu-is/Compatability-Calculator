@@ -19,12 +19,12 @@ questions = [
     '\nQuestion 2: What are you most grateful for? A)Family B) C) D)',
     '\nQuestion 1: What do you think will be the most important day of your life? A)The Day You Were Born B)Wedding Day C)Tomorrow   D)Birth of First Child'
 ]
-
+print(user1, 'please answer the following questions...')
 def questionaire1():
     questions1 = questions
     while questions1:
         print(questions1.pop())
-        user1responses.append(input('What is your answer?:'))
+        user1responses.append(input('Please select an answer:'))
 questionaire1()
 
 #Repeat for second person
@@ -41,11 +41,12 @@ questions = [
     '\nQuestion 1: What do you think will be the most important day of your life? A)The Day You Were Born B)Wedding Day C)Tomorrow   D)Birth of First Child'
 ]
 
+print(user2, 'please answer the following questions...')
 def questionaire2():
     questions2 = questions
     while questions2:
         print(questions2.pop())
-        user2responses.append(input('What is your answer?:'))
+        user2responses.append(input('User 2, please select an answer:'))
 questionaire2()
 
 #Compare repositories
