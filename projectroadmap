@@ -8,6 +8,7 @@ Project Road Map
       Get User Input for Answers
   4. Code phase 2 (Done)
       Function to compare user answers and return a score of 0-100
-  5. Updated Questions for Users
-  6. Added unique messages for different ranges of compatability scores
-
+  5. Updated Questions for Users (Done)
+  6. Added unique messages for different ranges of compatability scores (Done)
+  7. Replaced or Updated all questions and answers (Done)
+  8. Began GUI interface
