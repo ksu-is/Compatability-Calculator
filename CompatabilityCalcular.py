@@ -8,16 +8,16 @@ user2 = input('User 2, What is your name?: ')
 user1responses = []
 user2responses = []
 questions = [
-    '\nQuestion 10: What is your favorite movie genre? A)Horror B)Comedy C)Romance D)Action',
-    '\nQuestion 9: Where do you see yourself living in 20 years? A)Near the Beach B)In the Mountains C)In the City D)In the Countryside',
-    '\nQuestion 8: If you could be famous for anything, what would it be for? A)Performing (Singing/Acting/Dancing) B)Personality (TV Personality/Talk Show Host)  C)Sports D)New Invention/Discovery',
-    '\nQuestion 7: If you could be a supernatural creature, which would you prefer? A)Werewolf B)Mermaid C)Vampire D)Witch',
-    '\nQuestion 6: If you could have dinner with anyone, living or dead, who would it be? A)Relative B)Celebrity C)Historic Figure',
-    '\nQuestion 5: Pick a talent to have? A)Singing B)Dancing C)Sports D) ',
-    '\nQuestion 4: A crystal ball has appeared that can tell you about your soulmate. Would you rather know when you’ll meet, where you’ll meet, or how you’ll meet? A)When B)Where C)How',
-    '\nQuestion 3: If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want? A)Mind B)Body',
-    '\nQuestion 2: What are you most grateful for? A)Family B) C) D)',
-    '\nQuestion 1: What do you think will be the most important day of your life? A)The Day You Were Born B)Wedding Day C)Tomorrow   D)Birth of First Child'
+    '\nQuestion 10: What is your favorite movie genre? \nA )Horror \nB) Comedy \nC) Romance \nD) Action',
+    '\nQuestion 9: Where do you see yourself living in 20 years? \nA) Near the Beach \nB) In the Mountains \nC) In a Major City \nD) In the Countryside',
+    '\nQuestion 8: If you could be famous for anything, what would it be for? \nA) Performing (Singing/Acting/Dancing) \nB) Your Personality (TV Personality/Talk Show Host/Influencer)  \nC) Sports \nD) New Invention/Discovery',
+    '\nQuestion 7: If you could be a supernatural creature, which would you want to be? \nA) Werewolf \nB )Mermaid \nC) Vampire \nD) Witch',
+    '\nQuestion 6: If you could have dinner tonight with anyone, living or dead, who would it be with? \nA) A Relative \n B) A Celebrity \n C) A Historic Figure',
+    '\nQuestion 5: Pick something to be an expert at: \nA) An Instrument \nB) A Sport \nC) Debates \nD) Performance (Singing/Acting/Dancing)',
+    '\nQuestion 4: A crystal ball has appeared that can tell you one specific thing about your soulmate. Would you rather know... \nA) When you’ll meet \nB) Where you’ll meet \nC) How you’ll meet?',
+    '\nQuestion 3: If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want? \nA)Mind \nB)Body',
+    '\nQuestion 2: Pick a Quote. \nA) "The Choice you refuse to make is the choice that will be made for you" \nB) "Success requires no apologies. Failure permits no alibis." \nC) "If you\'re going through hell...keep going." \nD) "You only live once, but if you do it right, once is enough."',
+    '\nQuestion 1: What do you think is the most important day in your life? \nA) The day you were born \nB) Your Wedding Day \nC) Tomorrow   \nD) The birth of your first child'
 ]
 print(user1, 'please answer the following questions...')
 def questionaire1():
@@ -29,16 +29,16 @@ questionaire1()
 
 #Repeat for second person
 questions = [
-    '\nQuestion 10: What is your favorite movie genre? A)Horror B)Comedy C)Romance D)Action',
-    '\nQuestion 9: Where do you see yourself living in 20 years? A)Near the Beach B)In the Mountains C)In the City D)In the Countryside',
-    '\nQuestion 8: If you could be famous for anything, what would it be for? A)Performing (Singing/Acting/Dancing) B)Personality (TV Personality/Talk Show Host)  C)Sports D)New Invention/Discovery',
-    '\nQuestion 7: If you could be a supernatural creature, which would you prefer? A)Werewolf B)Mermaid C)Vampire D)Witch',
-    '\nQuestion 6: If you could have dinner with anyone, living or dead, who would it be? A)Relative B)Celebrity C)Historic Figure',
-    '\nQuestion 5: Pick a talent to have? A)Singing B)Dancing C)Sports D) ',
-    '\nQuestion 4: A crystal ball has appeared that can tell you about your soulmate. Would you rather know when you’ll meet, where you’ll meet, or how you’ll meet? A)When B)Where C)How',
-    '\nQuestion 3: If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want? A)Mind B)Body',
-    '\nQuestion 2: What are you most grateful for? A)Family B) C) D)',
-    '\nQuestion 1: What do you think will be the most important day of your life? A)The Day You Were Born B)Wedding Day C)Tomorrow   D)Birth of First Child'
+    '\nQuestion 10: What is your favorite movie genre? \nA)Horror \nB) Comedy \nC) Romance \nD) Action',
+    '\nQuestion 9: Where do you see yourself living in 20 years? \nA) Near the Beach \nB) In the Mountains \nC) In a Major City \nD) In the Countryside',
+    '\nQuestion 8: If you could be famous for anything, what would it be for? \nA) Performing (Singing/Acting/Dancing) \nB) Your Personality (TV Personality/Talk Show Host/Influencer)  \nC) Sports \nD) New Invention/Discovery',
+    '\nQuestion 7: If you could be a supernatural creature, which would you want to be? \nA) Werewolf \nB)Mermaid \nC) Vampire \nD) Witch',
+    '\nQuestion 6: If you could have dinner tonight with anyone, living or dead, who would it be with? \nA) A Relative \nB) A Celebrity \nC) A Historic Figure',
+    '\nQuestion 5: Pick something to be an expert at: \nA) An Instrument \nB) A Sport \nC) Debates/Talking to People \nD) Performance (Singing/Acting/Dancing)',
+    '\nQuestion 4: A crystal ball has appeared that can tell you one specific thing about your soulmate. Would you rather know... \nA) When you’ll meet \nB) Where you’ll meet \nC) How you’ll meet?',
+    '\nQuestion 3: If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want? \nA)Mind \nB)Body',
+    '\nQuestion 2: Pick a Quote. \nA) "The Choice you refuse to make is the choice that will be made for you" \nB) "Success requires no apologies. Failure permits no alibis." \nC) "If you\'re going through hell....keep..going.." \nD) "You only live once, but if you do it right, once is enough."',
+    '\nQuestion 1: What do you think is the most important day in someone\'s life? \nA) The day you\'re born \nB) Your Wedding Day \nC) Your Last   \nD) The birth of your first child'
 ]
 
 print(user2, 'please answer the following questions...')
@@ -78,11 +78,12 @@ def show_results():
     x1 = (0,40)
     x2 = (50,70)
     x3 = (80,100)
-    print('Your Compatability Score is:', score,'!')
+    print(f'{user1}...{user2}...Your Compatability Score is:', score,'!')
     if score in x1:
         print('You and your friend don\'t seem too similar! That\'s okay, our differences make life interesting.')
     elif score in x2:
         print('You and your friend are pretty similar. Birds of a feather flock together!')
     elif score in x3:
-        print('Wow! You two are really similar! They say you have 7 soulmates that you\'ll meet in life, could this be one?')
+        print('Wow! You two are really similar! They everyone has 7 soulmates in life, could this be one?')
 show_results()
+
