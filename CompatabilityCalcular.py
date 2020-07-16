@@ -1,3 +1,11 @@
+from tkinter import *
+
+def window():
+    screen = tkinter.Tk()
+    screen.grid()
+    print('Welcome to Love Line')
+    questionaire1()
+    screen()
 
 score = 0
 #Have users input names
@@ -22,9 +30,10 @@ questions = [
 print(user1, 'please answer the following questions...')
 def questionaire1():
     questions1 = questions
-    while questions1:
-        print(questions1.pop())
+    while questions:
+        print(questions.pop())
         user1responses.append(input('Please select an answer:'))
+        print('You selected:', user1responses[-1])
 questionaire1()
 
 #Repeat for second person
@@ -44,9 +53,10 @@ questions = [
 print(user2, 'please answer the following questions...')
 def questionaire2():
     questions2 = questions
-    while questions2:
-        print(questions2.pop())
+    while questions:
+        print(questions.pop())
         user2responses.append(input('User 2, please select an answer:'))
+        print(user2responses[-1])
 questionaire2()
 
 #Compare repositories
@@ -87,3 +97,14 @@ def show_results():
         print('Wow! You two are really similar! They everyone has 7 soulmates in life, could this be one?')
 show_results()
 
+self.a_bttn = Button(self, text="A", width=9, height=3, bg="LightBlue", fg='blue', command=lambda: user1responses.append('A'))
+    self.a_bttn.grid(row=1, column=1)
+
+    self.b_bttn = Button(self, text='B', width=9, height=3, bg='LightBlue', fg='blue', command=lambda: user1responses.append('B'))
+    self.b_bttn.grid(row=2, column=2)
+
+    self.c_bttn = Button(self, text='C', width=9, height=3, bg='LightBlue', fg='blue', command=lambda: user1responses.append('C'))
+    self.c_bttn.grid(row=2, column=4)
+
+    self.d_bttn = Button(self, text="D", width=9, height=3,bg='LightBlue', fg='blue', command=lambda: user1responses.append('D'))
+    self.d_bttn.grid(row=1, column=5)
