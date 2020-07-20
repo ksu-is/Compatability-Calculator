@@ -1,11 +1,5 @@
 from tkinter import *
 
-def window():
-    screen = tkinter.Tk()
-    screen.grid()
-    print('Welcome to Love Line')
-    questionaire1()
-    screen()
 
 score = 0
 #Have users input names
@@ -27,12 +21,13 @@ questions = [
     '\nQuestion 2: Pick a Quote. \nA) "The Choice you refuse to make is the choice that will be made for you" \nB) "Success requires no apologies. Failure permits no alibis." \nC) "If you\'re going through hell...keep going." \nD) "You only live once, but if you do it right, once is enough."',
     '\nQuestion 1: What do you think is the most important day in your life? \nA) The day you were born \nB) Your Wedding Day \nC) Tomorrow   \nD) The birth of your first child'
 ]
-print(user1, 'please answer the following questions...')
+
 def questionaire1():
+    print(user1, 'please answer the following questions...')
     questions1 = questions
     while questions:
         print(questions.pop())
-        user1responses.append(input('Please select an answer:'))
+        user1responses.append(input('Please select an answer: '))
         print('You selected:', user1responses[-1])
 questionaire1()
 
@@ -50,13 +45,14 @@ questions = [
     '\nQuestion 1: What do you think is the most important day in someone\'s life? \nA) The day you\'re born \nB) Your Wedding Day \nC) Your Last   \nD) The birth of your first child'
 ]
 
-print(user2, 'please answer the following questions...')
+
 def questionaire2():
+    print(user2, 'please answer the following questions...')
     questions2 = questions
     while questions:
         print(questions.pop())
-        user2responses.append(input('User 2, please select an answer:'))
-        print(user2responses[-1])
+        user2responses.append(input('Please select an answer: '))
+        print('You selected:', user2responses[-1])
 questionaire2()
 
 #Compare repositories
@@ -94,17 +90,6 @@ def show_results():
     elif score in x2:
         print('You and your friend are pretty similar. Birds of a feather flock together!')
     elif score in x3:
-        print('Wow! You two are really similar! They everyone has 7 soulmates in life, could this be one?')
+        print('Wow! You two are really similar! They say everyone has 7 soulmates in life, could this be one?')
 show_results()
 
-self.a_bttn = Button(self, text="A", width=9, height=3, bg="LightBlue", fg='blue', command=lambda: user1responses.append('A'))
-    self.a_bttn.grid(row=1, column=1)
-
-    self.b_bttn = Button(self, text='B', width=9, height=3, bg='LightBlue', fg='blue', command=lambda: user1responses.append('B'))
-    self.b_bttn.grid(row=2, column=2)
-
-    self.c_bttn = Button(self, text='C', width=9, height=3, bg='LightBlue', fg='blue', command=lambda: user1responses.append('C'))
-    self.c_bttn.grid(row=2, column=4)
-
-    self.d_bttn = Button(self, text="D", width=9, height=3,bg='LightBlue', fg='blue', command=lambda: user1responses.append('D'))
-    self.d_bttn.grid(row=1, column=5)
